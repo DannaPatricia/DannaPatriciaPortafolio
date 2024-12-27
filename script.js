@@ -1,7 +1,38 @@
 
-
+let contador = 0;
+let numeroBolas = 10;
 window.onload = function () {
     saludar();
+    generaBolas(numeroBolas);
+}
+
+$(document).ready(function(){
+    $("#btnDesplegar").on({
+        click: function(){
+            $("#desplegable").slideToggle(900);
+            $("#desplegable").css('display', 'flex');
+            let texto = (contador % 2 != 0 ? 'Conócememe mejor' : ' Dejar de conocerme');
+            numeroBolas = (contador % 2 != 0 ? 10 : 20);
+            $(this).text(texto);
+            contador++;
+            $("#bolitasContainer .bolitas").fadeOut(500, function() {
+                $("#bolitasContainer").empty();
+                generaBolas(numeroBolas);
+            });
+        }        
+    })
+})
+
+function generaBolas(numeroBolas){
+    let style = 5;
+    const main = document.querySelector("#bolitasContainer");
+    for (let i = 1; i <= numeroBolas; i++) {
+        const bolita = document.createElement("div");
+        bolita.classList.add("bolitas");
+        bolita.style.top = `${style}em`;
+        main.appendChild(bolita);
+        style = style + 20; 
+    }
 }
 
 function saludar() {
@@ -18,3 +49,5 @@ function saludar() {
         }, 200 * caracter);
     }
 }
+
+
