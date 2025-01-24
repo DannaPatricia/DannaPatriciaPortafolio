@@ -75,7 +75,7 @@ Si tienes preguntas, comentarios o deseas colaborar conmigo, no dudes en contact
 
 - **Email:** dannapatriciacm@gmail.com
 - **GitHub:** [Mi perfil](https://github.com/DannaPatricia)
-- **LinkedIn:** [Mi perfil](www.linkedin.com/in/danna-patricia-collaguazo-mera-b2b1ab340)
+- **LinkedIn:** [Mi perfil](https://www.linkedin.com/in/dannapatricia)
 
 ---
 
