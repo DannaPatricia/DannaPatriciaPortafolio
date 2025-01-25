@@ -1,3 +1,5 @@
+![Estado](https://img.shields.io/badge/Estado-En%20proceso-yellow?style=plastic)
+
 # Portafolio Web - Danna Patricia
 
 Bienvenido a mi portafolio web, un espacio donde comparto mis habilidades, herramientas y proyectos destacados en el desarrollo web. Este portafolio aún está en desarrollo, pero ya incluye una visión de mis capacidades técnicas y mi enfoque profesional.
@@ -76,6 +78,11 @@ Si tienes preguntas, comentarios o deseas colaborar conmigo, no dudes en contact
 - **Email:** dannapatriciacm@gmail.com
 - **GitHub:** [Mi perfil](https://github.com/DannaPatricia)
 - **LinkedIn:** [Mi perfil](https://www.linkedin.com/in/dannapatricia)
+
+---
+
+## 📜 Licencia
+Este proyecto está bajo la Licencia MIT. Puedes consultar más detalles en el archivo LICENSE.
 
 ---
 
