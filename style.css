@@ -435,11 +435,11 @@ main{
     gap: 1.5em;
     margin: auto;
     text-align: center;
-    height: 29em;
+    height: 35em;
     width: 25em;
     padding: 1.5em;
     border-radius: 15px;
-    background-color: #973256;
+    background-color: white;
     /* background:linear-gradient(#c68494, #c68494); */
     box-shadow: 0px 0px 10px #652239;
     transition: transform 500ms ease-in-out, box-shadow 500ms ease-in-out;
@@ -452,9 +452,18 @@ main{
 
 .proyectos img{
     margin: auto;
-    height: 16em;
+    height: 18em;
     width: 75%;
     border-radius: 15px;
+}
+
+.descrip{
+    font-size: 1.2em;
+    color: black;
+}
+
+.imagenEspecial{
+    width: 50%;
 }
 
 footer{

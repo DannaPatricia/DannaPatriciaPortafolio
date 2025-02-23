@@ -1,6 +1,6 @@
 
 let contador = 0;
-let numeroBolas = 14;
+let numeroBolas = 18;
 window.onload = function () {
     saludar();
     generaBolas(numeroBolas);
@@ -12,7 +12,7 @@ $(document).ready(function(){
             $("#desplegable").slideToggle(900);
             $("#desplegable").css('display', 'flex');
             let texto = (contador % 2 != 0 ? 'Conócememe mejor' : ' Dejar de conocerme');
-            numeroBolas = (contador % 2 != 0 ? 14 : 23);
+            numeroBolas = (contador % 2 != 0 ? 14 : 26);
             $(this).text(texto);
             contador++;
             $("#bolitasContainer .bolitas").fadeOut(500, function() {
