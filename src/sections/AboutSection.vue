@@ -55,14 +55,13 @@ export default {
 
     <div class="about-me-box">
       <p class="about-content">
-        Soy una persona curiosa que se encontró el desarrollo web y terminó enganchada. Aprender rápido se me suele dar
-        bien,
-        pero más allá de eso, me gusta enfocarme en escribir código limpio, entendible y con buenas prácticas.
+        Soy una persona curiosa que se encontró el desarrollo web y terminó enganchada. Suelo aprender rápido,
+        pero más allá de eso, me gusta enfocarme en escribir código limpio, legible y con buenas prácticas.
         <br><br>
         Creo que trabajar en equipo es clave. Disfruto mucho compartir ideas, escuchar otros enfoques y ver cómo un
         proyecto cobra vida cuando cada persona aporta su parte.
         <br><br>
-        En mi tiempo libre, si no estoy trasteando con una nueva tecnología o puliendo habilidades, probablemente estoy
+        En mi tiempo libre, si no estoy investigando una nueva tecnología o mejorando mis habilidades, probablemente estoy
         jugando a Pokémon o escuchando música ♫ mientras miro uñas o terrarios para mis tortugas ☺.
       </p>
 
@@ -78,7 +77,7 @@ export default {
           <span v-else @click="toggleList(); toggleIcon()" class="more-item">&times;</span>
           <transition name="slide-fade-list">
             <div v-show="isListOpen">
-              <li>✔ Invertigar fundamentos de Jenkins</li>
+              <li>✔ Investigar fundamentos de Jenkins</li>
             </div>
           </transition>
         </ul>
