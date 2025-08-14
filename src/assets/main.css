@@ -1,0 +1,115 @@
+* {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  scroll-margin-top: 6em;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  background-color: rgb(253, 248, 255);
+  z-index: -1;
+}
+
+main {
+  flex: 1;
+  padding-top: 6.5em;
+  width: clamp(370px, 100%, 2210px);
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 1;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+span {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive para portatiles estandar*/
+@media (max-width: 1280px) {
+  main {
+    padding-top: 5.3em;
+  }
+}
+
+/* Responsive para tablets o portatiles pequeños */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 1.7em;
+  }
+}
+
+/* Responsive para moviles grandes o tablets */
+@media (max-width: 820px) {
+  h1 {
+    font-size: 1.7em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+}
+
+/* Responsive para moviles grandes o tablets */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.28em;
+  }
+}
+
+/* Reponsive para moviles pequeños */
+@media (max-width: 540px) {
+  main {
+    padding-top: 3.5em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p{
+    font-size: 0.95em;
+  }
+
+}
+
+
+/* Reponsive para moviles pequeños */
+@media (max-width: 480px) {
+  main {
+    padding-top: 3.5em;
+  }
+}
